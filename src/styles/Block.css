@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+a {
+  text-decoration: none;
+}
+button {
+  background-color: white;
+  border: none;
+  width: 500px;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+}
+
+button:hover {
+  font-size: 170%;
+  transition: 0.5s;
+}
+.anxiety {
+  background-image: url(https://sun9-20.userapi.com/impg/yAs6qYc1jZThm3oF--C9wAgTcQDQEIjgyy1SDw/xz8-zVz-3ic.jpg?size=500x200&quality=96&sign=d25838ec8b2b38bb7a687552ec05b014&type=album);
+}
+.apathy {
+  background-image: url(https://sun9-3.userapi.com/impg/meBK_JIo3Y3b6rYNilJ5cQwek0DqED8bjYd2HQ/QUrOhHF5vWw.jpg?size=500x200&quality=96&sign=1711720c334905f22547a19562c9fad2&type=album);
+}
+.low_concentration {
+  background-image: url(https://sun9-67.userapi.com/impg/nqnQ_TtH1IfxVD8KLGJB8FQxfYxxe6v1eBeyXw/FHS8PhmsZW0.jpg?size=500x200&quality=96&sign=6caf74b2417f5782da24f691ceb4f8b1&type=album);
+}
+.anger {
+  background-image: url(https://sun9-23.userapi.com/impg/4ZgnQZcPd01hLoRfLf8bm3rp9m-s5bpSinQ3PQ/0MmgpB4QRsc.jpg?size=500x200&quality=96&sign=70559602ba8b8f1fe27287228750973c&type=album);
+}
+@media screen and (max-width: 980px){
+  button{
+    width: 90vw;
+    margin: 0;
+    padding: 0;
+   margin-top: 10%;
+  }
+  .anxiety{
+    margin-top: 0;
+  }
+}

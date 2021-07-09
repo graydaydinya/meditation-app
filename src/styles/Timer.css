@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&display=swap");
+#container {
+  height: 650px;
+  width: 600px;
+  border-radius: 12px;
+  background-color: white;
+  transition: 0.3s;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: calc(50% - 300px);
+}
+.herb {
+  background-image: url(https://images.pexels.com/photos/7084257/pexels-photo-7084257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.red{
+  background-image: url(https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.berries{
+  background-image: url(https://images.pexels.com/photos/7125578/pexels-photo-7125578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.kind{
+ background-image:url(https://images.pexels.com/photos/1090972/pexels-photo-1090972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+#play {
+  border-radius: 80%;
+  width: 23%;
+  height: 20%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: 60%;
+  border: none;
+}
+#play:hover {
+  width: 26%;
+  height: 23%;
+  font-size: 25px;
+}
+#tablo {
+  height: 100px;
+  width: 200px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: 10%;
+  font-family: "Indie Flower", cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.breath_on {
+  transition: 0.3s;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-left: 38%;
+  top: 35%;
+  font-family: "Indie Flower", cursive;
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  }
+  @keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.breath_off{
+display: none;
+    
+}
+.kind_but {
+  border-radius: 80%;
+  width: 29%;
+  height: 26%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: 60%;
+  border: none;
+  font-size: 30px;
+}
+a {
+  color: black;
+}
+.kind_but:hover {
+  width: 31%;
+  height: 28%;
+  background-color: gold;
+}
+@media screen and (max-width: 980px){
+  #container{
+    height: 80vh;
+  width: 75vw;
+  margin-top: 10vh;
+  
+  position: relative;
+  display: grid;
+  }
+  #play{
+    width: 130px;
+    height: 120px;
+  }
+  #play:hover {
+    width: 140px;
+    height: 130px;
+    
+  }
+  .breath_on{
+   margin: 0;
+   left: 16.5%;
+   font-size: 8vh;
+   align-self: center;
+   justify-self: center;
+  }
+  .kind_but{
+    width: 130px;
+    height: 120px;
+  }
+  .kind_but:hover{
+    width: 140px;
+    height: 130px;
+  }
+}

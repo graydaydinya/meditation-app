@@ -1,0 +1,22 @@
+#blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    height: 100%;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: calc(50% - 45%);
+  }
+  @media screen and (max-width: 980px){
+    #blocks{
+    margin: auto;
+    left: 17vw;
+    width: 90vw;
+    position:static;
+    gap: 20%;
+    display: flex;
+    }
+  }

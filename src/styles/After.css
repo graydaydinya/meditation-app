@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&display=swap");
+.after {
+  height: 200px;
+  width: 300px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  margin: auto;
+  margin-top: 10%;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.6s;
+}
+.after h1 {
+  margin-left: 3px;
+  font-family: "Indie Flower", cursive;
+  padding-left: 15px;
+  font-size: 250%;
+  transition: 0.6s;
+}
+.after:hover {
+  height: 250px;
+  width: 350px;
+  background-color: gold;
+}
